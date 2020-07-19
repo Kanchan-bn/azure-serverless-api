@@ -1,0 +1,3 @@
+
+export const userAuth = 'Basic TWlja2V5LSQyYiQxMCRlcEFScW1ab1dDZ3I3dEt4NC9aODJPbDdLTy9zUDNOeGNVS3JkQS5pNXdxaDlrMllDY1RYRw==';
+export const adminAuth = 'Basic TWlubmllLSQyYiQxMCRPd2tULlc5Z2t5TVRyNXBTLm1XaWkuNFF4UHF5Q2p4blhEOE9jRHdob2NJa1RlRnU4ZFM2aQ==';

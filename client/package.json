@@ -1,0 +1,20 @@
+{
+  "name": "products_client",
+  "version": "1.0.0",
+  "description": "lightweight client to test the products api",
+  "private": true,
+  "author": "Kanchan Nataraj",
+  "license": "ISC",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "components": "^0.1.0",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0"
+  }
+}

@@ -1,0 +1,155 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    overflow-y: hidden; /* Hide scrollbars */
+  }
+
+
+h5 {
+    display: inline-block;
+    width: 95%;
+    text-align: right;
+    padding:2em;
+}
+
+.header-bar {
+    background-color: #ffec0f;
+    height: 2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 1em;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+button {
+    background-color: #ffec0f;
+    border: none;
+    margin: 0.5em;
+    padding: 0.5em;
+    min-width: 5em;
+    font-weight: 600;
+}
+
+.mainProducts {
+    height: 35em;
+    overflow-y: scroll;
+}
+
+.buttonPanel {
+    text-align: right;
+}
+
+.products-display > div {
+    display: inline-block;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+    width: 20%;
+    
+}
+
+select {
+    width: 100%;
+    word-wrap: break-word;
+}
+
+
+.products-display, .product-add {
+    vertical-align: text-top;
+    display: inline-block;
+    margin: 1em;
+}
+
+.products-display {
+    width: 60%;
+}
+
+.product-add {
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+    border: 1px solid gray;
+    border-radius: 0.5em;
+    margin-top:1em;
+    width: 30%;
+}
+
+.productFields > div {
+    
+    padding: 0.5em;
+}
+
+.productFields > div > label {
+    padding-right: 0.5em;
+}
+
+input {
+    padding:0.3em;
+    width: 60%;
+    font-weight: 600;
+    color: blue;
+}
+
+#enableAdd {
+    background-color: #0078d7;
+    color: white;
+}
+
+
+#deleteButton {
+    margin-left: 2em;
+    background-color: #e75252;
+}
+
+li {
+    list-style-type: none;
+    padding: 0.5em;
+    background-color: #eee;
+    margin-bottom: 1em;
+}
+
+li > div >div {
+    display: inline-block;
+    padding: 0.5em;
+    width: 15%;
+    word-wrap: break-word;
+    color: blue;
+    font-weight: 600;
+    vertical-align: top;
+}
+
+.productHeader {
+    background-color: white;
+    margin:0;
+    padding:0;
+}
+
+.productHeader > div {
+    display: inline-block;
+    color: black;
+    padding: 0.5em;
+    width: 15%;
+    padding-top:0;
+}
+
+.productHeader > div > button {
+    margin:0;
+}
+
+.errorDiv {
+    color: red;
+    font-size: x-large;
+    text-align: center;
+}
+
+.errorDiv::before {
+    content: "Error!!! ";
+}
+
+.errorDiv::after {
+    color: black;
+    font-size: large;
+    content: " > Note: Make sure the api service is running ";
+}
