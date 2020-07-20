@@ -7,13 +7,13 @@ client - sample react UI to integrate the API to demonstrate calling different m
 ## Local Setup
 1. Clone the repo
 2. Install Azure function cli extension on VSCode
-3. Navigate to the server folder from a terminal and run ```npm install```
-4. Enable cors by adding the this in the local.settings.json
+3. Navigate to the 'server' folder from a terminal and run ```npm install```
+4. Run the server in debug mode, open the server folder in VSCode and press F5 (this also generates the local.settings.json)
+5. Enable cors by adding the this in the local.settings.json
  ``` "Host": {"LocalHttpPort": 7071, "CORS": "*", "CORSCredentials": false }```
-5. To run in debug mode, press F5
-6. OR run  ```func start``` from the terminal
-7. Navigate to the client folder from the terminal and run ```npm install
-8. Run ```parcel index.html```
+6. To run the API execute ```func start``` from the terminal
+7. Navigate to the 'client' folder from the terminal and run ```npm install```
+8. Run ```npm start```
 9. Access the UI at ```http://localhost:1234```
 
 ## Design
