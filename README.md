@@ -1,8 +1,8 @@
 # azure-serverless-api
-This is a Azure function - serverless API created using Azure functions extension in VSCode
+This is an Azure function - serverless API created using Azure functions extension in VSCode
 The code contains two sections:
 Server - API code, Fake db in-memory object storage, authentication logic
-client - sample react UI to integrate the API to demonstrate calling different methods on the end-point
+And Client - a sample react UI to integrate the API to demonstrate calling different methods on the end-point
 
 ## Local Setup
 1. Clone the repo
